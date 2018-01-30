@@ -19,12 +19,22 @@
   margin: 0 auto; 
 }
 
+/* 
+  retina 
+  original size was 600X600
+*/
+#image {
+  height: 300px;
+  width: 300px;
+}
+
 #image {
   max-width: 100%;
   display: block;
   height: auto;
   margin: 0 auto; 
 }
+
 
 #img-caption {
   padding: 1em 0 0 0; 
@@ -46,4 +56,11 @@ p {
 a {
   text-decoration: none; 
   color: #ff11bb; 
+}
+
+@media (max-width: 300px) {
+  #main {
+    background-color: #ffd; 
+  }
+
 }
