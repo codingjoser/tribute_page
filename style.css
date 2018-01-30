@@ -1,0 +1,49 @@
+/* Styles applied to entire page */
+#main {
+  background-color: black;
+  text-align: center; 
+  color: #ddd; 
+}
+#title {
+  padding: 1em 0; 
+}
+
+#quote {
+  
+}
+
+#img-div {
+  background-color: #222; 
+  padding: 2em; 
+  width: 50%; 
+  margin: 0 auto; 
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto; 
+}
+
+#img-caption {
+  padding: 1em 0 0 0; 
+}
+
+ul {
+  padding: 0 10em 0 20em; 
+  text-align: left; 
+}
+
+#tribute-info {
+  padding: 1em 0 0 0; 
+}
+
+p {
+  font-size: 1.5em; 
+}
+
+a {
+  text-decoration: none; 
+  color: #ff11bb; 
+}
